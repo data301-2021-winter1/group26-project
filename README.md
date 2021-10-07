@@ -1,5 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5880294&assignment_repo_type=AssignmentRepo)
-# Group YYY - {Short snappy Title of your project}
+# Group 26 - Gamers Unite
 
 - Your title can change over time.
 
@@ -13,11 +13,11 @@ Our team is interested in steam games, specifically each of our members research
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+Kaggle provided the dataset through the user Nik Davis under the Creative Commons license. Further, Nik Davis acquired the data from publicly available information; everything available on the Steam store, to be precise. The data contains extensive information regarding almost 30,000 games on the popular video game marketplace, Steam. The information in question includes statistics such as price, game genre, release date, game platforms, publisher, developer, average playtime, positive/negative reception, and more. This data was collected around May 2019 and is stated to contain almost every game on Steam released prior to that date. The party who collected the data states that he "wanted to make... something fun and interesting", and thus is most likely purposed for fun and public interest. The data was collected using a combination or information publicly available on the Steam store and the SteamSpy API.
 
 ## Team Members
 
-- Person 1: one sentence about you!
+- Paul Unger: I'm a self-taught developer interested in game development and design, artificial intelligence, and computer hardware.
 - Person 2: one sentence about you!
 - Dallas Bueckert: I am interested in game development and would like to use this dataset to determine what genre game to make first.
 
