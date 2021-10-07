@@ -18,7 +18,7 @@ Kaggle provided the dataset through the user Nik Davis under the Creative Common
 ## Team Members
 
 - Paul Unger: I'm a self-taught developer interested in game development and design, artificial intelligence, and computer hardware.
-- Person 2: one sentence about you!
+- Darion Pescada: I am a game developer and I'm interested in seeing the change in prices of games over the years.
 - Dallas Bueckert: I am interested in game development and would like to use this dataset to determine what genre game to make first.
 
 ## Images
