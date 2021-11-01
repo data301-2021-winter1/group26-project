@@ -82,7 +82,7 @@ def create_new_dataframe(df3):
 
     #create a dictionary of the new lists
     d = {"Year": years, "Game Count": game_count, "Average Price": average_price, "Max Price": max_price, 
-     "Min Price": min_price, "Over $49": expensive_games, "Under $5": cheap_games, "Cheap Game Percent": cheap_game_percent}
+     "Min Price": min_price, "Over 49 Dollars": expensive_games, "Under 5 Dollars": cheap_games, "Cheap Game Percent": cheap_game_percent}
 
     #create new dataframe using dictionary
     df4 = pd.DataFrame(d)
