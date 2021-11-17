@@ -7,8 +7,8 @@ def clean_and_process(csv_file):
     #This function will drop all the columns I am not using, rename them to look nicer, create a new column that is a ratio of pos and neg ratings, and finally remove any low owner count games
     df1 = (
         pd.read_csv(csv_file)
-        .drop(['release_date','english', 'developer', 'publisher','platforms', 'required_age','achievements','average_playtime', 'median_playtime','price','name','appid'], axis =1)
-        .rename(columns = {'categories':'Category', 'genres':'Genre','steamspy_tags':'Tags', 'positive_ratings':'Positive Reviews', 'negative_ratings':'Negative Reviews','owners':'Copies Sold'}, errors="raise")         
+        .drop(['release_date','english', 'developer', 'publisher','platforms', 'required_age','achievements','average_playtime', 'median_playtime','price','name','appid','categories'], axis =1)
+        .rename(columns = {'genres':'Genre','steamspy_tags':'Tags', 'positive_ratings':'Positive Reviews', 'negative_ratings':'Negative Reviews','owners':'Copies Sold'}, errors="raise")         
         )
     df1['Positive Percentage'] = df1['Positive Reviews'] /(df1['Negative Reviews']+df1['Positive Reviews'])
     df1 = remove_low_performers(df1)
